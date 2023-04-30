@@ -57,7 +57,7 @@
 
 #imgleft
 {
-    background-image: url('nam.jpg');
+    background-image: url("nam.jpg");
     width: 600px;
     height: 600px;
     background-size: auto 120%;
@@ -67,7 +67,7 @@
 
 #imgright
 {
-    background-image: url('nu.jpg');
+    background-image: url("nu.jpg");
     width: 600px;
     height: 600px;
     margin-left: 250px;
