@@ -67,7 +67,7 @@
 
 #imgright
 {
-    background-image: url(nu.jpg);
+    background-image: url('nu.jpg');
     width: 600px;
     height: 600px;
     margin-left: 250px;
