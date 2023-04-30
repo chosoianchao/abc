@@ -1,0 +1,82 @@
+@keyframes heart
+{
+    50%
+    {
+        transform: translate(-50%,-100%) scale(3,3);
+    }
+
+    100%
+    {
+        transform: translate(-50%,-50%) scale(1,1);
+    }
+}
+
+.heart
+{
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.heart div
+{
+    background: red;
+    width: 71px;
+    height: 126px;
+    top: 40%;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.left
+{
+    left: 45px;
+    transform: rotate(330deg);
+}
+
+.right
+{
+    right: 45px;
+    transform: rotate(30deg);
+}
+
+.img
+{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+#imgleft
+{
+    background-image: url('./nam.jpg');
+    width: 600px;
+    height: 600px;
+    background-size: auto 120%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#imgright
+{
+    background-image: url(./nu.jpg);
+    width: 600px;
+    height: 600px;
+    margin-left: 250px;
+    background-size: auto 120%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.music
+{
+    margin-top: 10px;
+}
